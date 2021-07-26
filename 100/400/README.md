@@ -21,7 +21,7 @@ networks:
   section
       external: true
 ```
-docker-compose.yml
+containers/olivetin/docker-compose.yml
 
 You should be able to browse to http://yourserver:1337 (or similar) to get to the web interface.
 

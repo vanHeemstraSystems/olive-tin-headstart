@@ -5,4 +5,12 @@ Based on "OliveTin — a simple web interface for running Linux shell commands" 
 
 GitHub Project Source Code: https://github.com/OliveTin/OliveTin
 
+Documentation: https://docs.olivetin.app/
+
+Home Page: https://olivetin.app/
+
+## 100 - Installation
+
+See [README.md](./100/README.md)
+
 

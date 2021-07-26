@@ -33,9 +33,10 @@ Traefik is a popular reverse proxy that seems to be used a lot in people’s Doc
 
 Adjust the ```docker-compose.yml``` example above to include the following labels;
 
+```
 ...
     labels:
       - traefik.http.routers.olivetin.rule=Host(`run.your.domain`)
       - traefik.http.routers.olivetin.tls.certresolver=lets-encrypt
 ...
-
+```

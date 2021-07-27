@@ -16,7 +16,7 @@ services:
     ports:
       - "1337:1337"
     volumes:
-      - config:/config # replace host path or volume as needed
+      - ./config/config.yaml:/config/config.yaml # replace host path or volume as needed
     labels:
       - traefik.http.routers.olivetin.rule=Host(`run.your.domain`)
       - traefik.http.routers.olivetin.tls.certresolver=lets-encrypt

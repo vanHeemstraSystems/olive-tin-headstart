@@ -16,3 +16,10 @@ See [README.md](./100/README.md)
 ## 200 - Configuration
 
 See [README.md](./200/README.md)
+
+Check if the website works as expected:
+
+```
+$ curl -Is http://[hostname]:1337 | head -1
+HTTP/1.1 200 OK
+```

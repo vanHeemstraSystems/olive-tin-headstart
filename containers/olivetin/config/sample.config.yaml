@@ -8,5 +8,5 @@ logLevel: "INFO"
 
 # Actions (buttons) to show up on the WebUI:
 actions: 
-- title: "Hello world!"
-  shell: echo 'Hello World!'
+  - title: "Hello world!"
+    shell: echo 'Hello World!'
